@@ -1,0 +1,167 @@
+.map {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  border-radius: 25px;
+  margin-left: 2rem;
+}
+
+.grid-container > div {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+
+.main {
+  grid-area: main;
+  position: relative;
+}
+
+.main2 {
+  grid-area: main2;
+  margin-top: 8rem;
+}
+
+.header {
+  grid-area: header;
+
+}
+
+.fb-page { grid-area: fb-page; }
+.main { grid-area: main; }
+.main2 { grid-area: main2; }
+.right { grid-area: right; }
+.right2 { grid-area: right2; }
+.footer { grid-area: footer; }
+.contact { grid-area: contact; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main right right right right'
+    'main2 main2 right2 right2 right2 fb-page'
+    'footer footer footer footer footer contact';
+  grid-column-gap: 15px;
+  grid-row-gap: 5px;
+  /*background-color: #2196F3;*/
+  padding: 0px 0px;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+
+.logo2 {
+  width: 70%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.logo2 {
+  width: 100%;
+  padding-top: 2rem;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.fastRepair {
+  position: relative;
+  width: 100%;
+  /*-webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);*/
+  margin-top: 3rem;
+}
+
+
+.shopFront2 {
+  position: relative;
+  width: 100%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  border-radius: 25px;
+}
+
+.right{
+  width: 85%;
+  height: 70%;
+  background: url('img/vapeFlavour1.jpg');
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  animation: slide 50s infinite;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  margin-top: 4rem;
+  margin-left: 2rem;
+  border-radius: 25px;
+}
+
+.eLiquidText1{
+  font-size: 5rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.eLiquidText2{
+  font-size: 2rem;
+  text-align: left;
+  padding-left: 1rem;
+
+}
+
+.right2{
+  margin-top: 6rem;
+}
+
+@keyframes slide {
+  10% {
+    background: url('img/vapeFlavour1.jpg');
+  }
+  20% {
+    background: url('img/vapeFlavour2.jpg');
+  }
+  30% {
+    background: url('img/vapeFlavour3.jpg');
+  }
+  40% {
+    background: url('img/vapeFlavour4.jpg');
+  }
+  50% {
+    background: url('img/vapeFlavour5.jpg');
+  }
+  60% {
+    background: url('img/vapeFlavour6.jpg');
+  }
+  70% {
+    background: url('img/vapeFlavour7.jpg');
+  }
+  80% {
+    background: url('img/vapeFlavour8.jpg');
+  }
+  90% {
+    background: url('img/vapeFlavour9.jpg');
+  }
+  100% {
+    background: url('img/vapeFlavour1.jpg');
+  }
+}
+
+.fb-page, .fb-xfbml-parse-ignore {
+  margin-top: 8rem;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  border-radius: 25px;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.naughtyNice {
+  position: relative;
+  width: 100%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  margin-top: 3rem;
+  border-radius: 25px;
+}
